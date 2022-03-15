@@ -1,0 +1,43 @@
+header{
+    background-color: crimson;
+    
+}
+h1{
+    background-color: crimson;
+    margin: 0px;
+
+}
+footer{
+    background-color: crimson;
+    position: relative;
+    text-align: center;
+    margin: 300px ;
+    max-width: auto;
+ 
+   
+  
+}
+body{
+    background-color: rgb(226, 107, 131);
+
+}
+.baixo{
+    position: absolute;
+    position: center; 
+   
+    
+}
+button{
+    background-color: crimson;
+    border-radius: 10px;
+    margin: 5px;
+}
+.calcular{
+    margin: 200px;
+}
+input{
+    border-radius: 40px;
+
+}
+
+

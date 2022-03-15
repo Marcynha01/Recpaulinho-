@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(238, 156, 172);
+  
+}
+h1{
+    background-color: crimson;
+    margin-top: 0%;
+    
+}
+header{
+    background-color: crimson;
+    position: center;
+    text-align: center;
+    margin: 200px ;
+border-radius: 40px;
+}
+button{
+    background-color: crimson;
+    margin-top:  -5%;
+ border-radius: 40px;
+}

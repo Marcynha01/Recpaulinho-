@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CALCULO</title>
+    <link rel="stylesheet" href="./calculo.css">
+</head>
+<body>
+    <h1>Calcular velocidade</h1>
+    <center>
+<div class="calcular">
+  <input text="number" id="deslocamento" placeholder="Informe o valor de deslocamento">
+  <input text="number" id="intervalo" placeholder="Informe o intervalo de tempo">
+
+ 
+  <br>
+  <button>limpar</button>
+  <button onclick="calcular()">Calcular</button>
+  <br>
+  
+ <textarea name="" id="resultado" cols="30" rows="5"></textarea>
+  
+</center>
+
+</div>
+
+<script>
+  
+    Array({
+        calcular = adicionar
+    var adicionar =
+    calcular.push("resultado");
+        
+    }
+ const calcular= function (){
+    let deslocamento = document.getElementById('deslocamento').value
+    let intervalo = document.getElementById('intervalo').value
+
+    let resultado = parseFloat (deslocamento) / parseFloat (intervalo)
+    document.getElementById('resultado').value = resultado
+}
+
+
+
+</script>
+</body>
+</html>
